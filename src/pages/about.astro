@@ -1,0 +1,32 @@
+---
+// File: src/pages/about.astro (optional if you want it now)
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+<BaseLayout title="About ZiiU">
+  <div class="kicker">About</div>
+  <h1>Why we’re building ZiiU</h1>
+  <p>
+    Growing up today is harder than it needs to be. Students face pressure, distraction, and constant change.
+    ZiiU exists to provide calm structure—helping young people build self-awareness, confidence, and direction.
+  </p>
+
+  <div class="grid">
+    <div class="card">
+      <h3>Mission</h3>
+      <p>Help ages 9–17 navigate life with clarity, balance, and measurable growth.</p>
+    </div>
+    <div class="card">
+      <h3>Values</h3>
+      <p>Safety • Trust • Growth • Empathy • Responsible AI</p>
+    </div>
+    <div class="card">
+      <h3>Approach</h3>
+      <p>Practical tools, age-appropriate design, and privacy-first governance.</p>
+    </div>
+  </div>
+
+  <p style="margin-top:18px; display:flex; gap:12px; flex-wrap:wrap;">
+    <a class="btn primary" href="/get">Join Early Access</a>
+    <a class="btn ghost" href="/for-schools">Schools & pilots</a>
+  </p>
+</BaseLayout>
