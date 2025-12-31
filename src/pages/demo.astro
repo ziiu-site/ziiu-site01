@@ -1,0 +1,29 @@
+---
+// File: src/pages/for-schools.astro is already included above.
+// If you prefer a dedicated “Request Demo” page, add this:
+
+// File: src/pages/demo.astro
+import BaseLayout from "../layouts/BaseLayout.astro";
+const demoUrl = "PASTE_YOUR_GOOGLE_FORM_OR_CALENDAR_LINK_HERE";
+---
+<BaseLayout title="ZiiU — Request a Demo">
+  <div class="kicker">Schools & Programs</div>
+  <h1>Request a ZiiU demo</h1>
+  <p>
+    Interested in a pilot or program alignment? Share your details and we’ll follow up with a structured pilot plan.
+  </p>
+
+  <p style="margin-top:14px;">
+    <a class="btn primary" href={demoUrl} target="_blank" rel="noreferrer">Request Demo</a>
+  </p>
+
+  <div class="card" style="margin-top:16px;">
+    <h3>What we’ll cover</h3>
+    <p style="margin:0;">
+      • Student experience walkthrough<br />
+      • Safety & governance overview<br />
+      • Pilot structure and success metrics<br />
+      • Timeline and support requirements
+    </p>
+  </div>
+</BaseLayout>
