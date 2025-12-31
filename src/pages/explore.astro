@@ -1,1 +1,49 @@
+---
+// File: src/pages/explore.astro
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+<BaseLayout title="Explore ZiiU">
+  <div class="kicker">Explore ZiiU</div>
+  <h1>Not a chatbot. A life navigator.</h1>
+  <p>
+    ZiiU is built to guide students through reflection, planning, and growth. The experience is designed to be
+    calm, structured, and safe—supporting ages 9–17 with clear boundaries and purposeful outcomes.
+  </p>
 
+  <div class="grid">
+    <div class="card">
+      <h3>Life Navigation Engine</h3>
+      <p>Turns check-ins into insights, and insights into small actions—goals, routines, and growth steps.</p>
+    </div>
+    <div class="card">
+      <h3>Safety Guardrails</h3>
+      <p>Age-aware guidance, moderation, and responsible design to reduce harmful or inappropriate content.</p>
+    </div>
+    <div class="card">
+      <h3>Progress You Can See</h3>
+      <p>Simple tracking that helps students recognize growth over time without pressure or comparison.</p>
+    </div>
+  </div>
+
+  <div class="card" style="margin-top:22px;">
+    <h3>How ZiiU works (high level)</h3>
+    <p style="margin:0;">
+      <strong>1) Check-In:</strong> short reflections that build awareness.<br />
+      <strong>2) Understand:</strong> identify patterns, strengths, and challenges.<br />
+      <strong>3) Grow:</strong> turn goals into small steps and healthy routines.
+    </p>
+  </div>
+
+  <div class="card" style="margin-top:16px;">
+    <h3>Privacy & governance mindset</h3>
+    <p style="margin:0;">
+      ZiiU is built with privacy-first principles: data minimization, secure storage, and clear user purpose.
+      As the platform expands, governance, consent, and transparency will remain core requirements.
+    </p>
+  </div>
+
+  <p style="margin-top:18px; display:flex; gap:12px; flex-wrap:wrap;">
+    <a class="btn primary" href="/get">Join Early Access</a>
+    <a class="btn ghost" href="/for-parents">Safety & parent view</a>
+  </p>
+</BaseLayout>
