@@ -1,1 +1,45 @@
+---
+// File: src/pages/get.astro
+import BaseLayout from "../layouts/BaseLayout.astro";
+const waitlistUrl = "PASTE_YOUR_GOOGLE_FORM_LINK_HERE";
+---
+<BaseLayout title="Get ZiiU">
+  <div class="kicker">Early Access</div>
+  <h1>Get ZiiU</h1>
+  <p>
+    ZiiU is preparing for early access. Join the waitlist and we’ll email you when it’s ready.
+  </p>
 
+  <p style="margin-top:14px; display:flex; gap:12px; flex-wrap:wrap;">
+    <a class="btn primary" href={waitlistUrl} target="_blank" rel="noreferrer">Join Early Access</a>
+    <a class="btn ghost" href="/explore">Explore ZiiU</a>
+  </p>
+
+  <div class="grid" style="margin-top:22px;">
+    <div class="card">
+      <h3>For Students</h3>
+      <p>Daily check-ins, goals, and growth tools designed for ages 9–17.</p>
+    </div>
+    <div class="card">
+      <h3>For Parents</h3>
+      <p>Built with privacy, safety, and healthy development as core requirements.</p>
+    </div>
+    <div class="card">
+      <h3>For Schools</h3>
+      <p>Pilot-ready structure that complements SEL and student support programs.</p>
+    </div>
+  </div>
+
+  <div class="card" style="margin-top:16px;">
+    <h3>What happens after you join?</h3>
+    <p style="margin:0;">
+      1) You’ll receive an email confirmation.<br />
+      2) We’ll invite you to early access as spots open.<br />
+      3) You’ll get updates as ZiiU adds new features and releases.
+    </p>
+  </div>
+
+  <p style="margin-top:10px; font-size:14px; color:#486175;">
+    Tip: If you’re a school or program leader, join the waitlist and add a note that you’re interested in a pilot.
+  </p>
+</BaseLayout>
