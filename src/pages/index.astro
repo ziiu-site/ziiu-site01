@@ -1,103 +1,48 @@
 ---
-// File: src/pages/index.astro (customized, unique for ZiiU)
 import BaseLayout from "../layouts/BaseLayout.astro";
 ---
-<BaseLayout title="ZiiU — AI Life Navigator for Ages 9–17">
-  <section class="hero">
-    <div class="kicker">AI Life Navigator • Ages 9–17</div>
-    <h1>Clarity, confidence, and direction—built for students.</h1>
-    <p>
-      ZiiU helps young people understand themselves, build healthy routines, and make better choices.
-      It’s calm, structured, and designed with privacy and safety as core requirements.
-    </p>
 
-    <p style="margin-top:14px; display:flex; gap:12px; flex-wrap:wrap;">
-      <a class="btn primary" href="/get">Get Early Access</a>
-      <a class="btn ghost" href="/for-parents">For Parents</a>
-      <a class="btn ghost" href="/for-schools">For Schools</a>
-    </p>
+<BaseLayout title="ZiiU — Coming Soon">
+  <style>
+    .cs-wrap {
+      min-height: calc(100vh - 140px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 28px 0;
+    }
+    .cs-card {
+      width: 100%;
+      max-width: 920px;
+      border-radius: 18px;
+      border: 1px solid #e6edf3;
+      background: #fff;
+      overflow: hidden;
+    }
+    .cs-top {
+      display: flex;
+      justify-content: center;
+      padding: 22px 18px;
+      border-bottom: 1px solid #e8edf2;
+      background: rgba(244,246,248,0.7);
+    }
+    .cs-logo {
+      height: 48px;
+      width: auto;
+    }
+    .cs-image {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+  </style>
 
-    <div class="grid" style="margin-top:26px;">
-      <div class="card">
-        <h3>Check In</h3>
-        <p>
-          Simple daily reflections that help students notice emotions, habits, and what affects their focus.
-        </p>
+  <div class="cs-wrap">
+    <div class="cs-card">
+      <div class="cs-top">
+        <img class="cs-logo" src="/logo.png" alt="ZiiU Logo" />
       </div>
-      <div class="card">
-        <h3>Understand</h3>
-        <p>
-          ZiiU turns check-ins into clear insights—helping students recognize patterns and strengths over time.
-        </p>
-      </div>
-      <div class="card">
-        <h3>Grow</h3>
-        <p>
-          Small steps, realistic goals, and helpful routines—built around the student’s pace, not pressure.
-        </p>
-      </div>
+      <img class="cs-image" src="/coming-soon.jpg" alt="ZiiU Coming Soon" />
     </div>
-  </section>
-
-  <section style="margin-top:28px;">
-    <div class="card">
-      <h3>Why ZiiU exists</h3>
-      <p style="margin:0;">
-        Students face more pressure, distraction, and change than ever. ZiiU provides a structured, supportive space
-        to build self-awareness and life skills—without becoming a feed, a game, or a replacement for real support.
-      </p>
-    </div>
-  </section>
-
-  <section style="margin-top:16px;">
-    <div class="grid">
-      <div class="card">
-        <h3>Made for youth</h3>
-        <p style="margin:0;">
-          Age-appropriate guidance, calm design, and features focused on personal growth—not comparison.
-        </p>
-      </div>
-      <div class="card">
-        <h3>Trusted by families</h3>
-        <p style="margin:0;">
-          Privacy-first mindset. No selling data. No ad profiling. Clear expectations and transparent policies.
-        </p>
-      </div>
-      <div class="card">
-        <h3>Ready for schools</h3>
-        <p style="margin:0;">
-          Pilot-friendly structure that complements SEL and student support programs with measurable engagement.
-        </p>
-      </div>
-    </div>
-  </section>
-
-  <section style="margin-top:18px;">
-    <div class="card">
-      <h3>What you can expect in early access</h3>
-      <p style="margin:0;">
-        • Daily check-ins + guided reflection<br />
-        • Goals, routines, and growth “quests”<br />
-        • Progress tracking that stays private and pressure-free<br />
-        • Safety guardrails and ongoing improvements
-      </p>
-      <p style="margin-top:14px; display:flex; gap:12px; flex-wrap:wrap;">
-        <a class="btn primary" href="/get">Join the Waitlist</a>
-        <a class="btn ghost" href="/explore">Explore ZiiU</a>
-      </p>
-    </div>
-  </section>
-
-  <section style="margin-top:18px;">
-    <div class="card">
-      <h3>Privacy and safety are non-negotiable</h3>
-      <p style="margin:0;">
-        ZiiU is designed to prioritize student well-being. Learn more about our approach:
-      </p>
-      <p style="margin-top:12px; display:flex; gap:12px; flex-wrap:wrap;">
-        <a class="btn ghost" href="/privacy">Privacy</a>
-        <a class="btn ghost" href="/terms">Terms</a>
-      </p>
-    </div>
-  </section>
+  </div>
 </BaseLayout>
